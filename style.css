@@ -15,4 +15,5 @@ select, button {
 }
 #result {
     margin-top: 20px;
+    text-align: center;
 }
