@@ -18,12 +18,12 @@
 ### Код
 
 <p>index.html состоит из текстового поля для обращения к API и создании диаграммы. Диаграмма помещается в пустой контейнер <b>result</b> в <b>svg</b> формате.</p>
-<img src="/for_readme/index_code.png" alt="" height="300" width="300">
+<img src="for_readme/index_code.png" alt="" height="300" width="300">
 <p>В style.css указано расположение элементов на странице.</p>
-<img src="/for_readme/style_code.png" alt="" height="250" width="300">
+<img src="for_readme/style_code.png" alt="" height="250" width="300">
 <p>Код script.js содержит обращение к <b>Kroki API</b> для создания диаграмм. Поддерживаются три языка для создания диаграмм:</p>
 <p><b>PlantUML, Graphviz (DOT) и Mermaid</b></p>
-<img src="/for_readme/script_code.png" alt="" height="300" width="1000">
+<img src="for_readme/script_code.png" alt="" height="300" width="1000">
 
 ### script.js
 
