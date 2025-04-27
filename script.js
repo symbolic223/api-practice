@@ -11,3 +11,4 @@ async function generateDiagram() {
     const svg = await response.text();
     document.getElementById('result').innerHTML = svg;
 }
+
