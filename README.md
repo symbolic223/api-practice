@@ -18,13 +18,19 @@
 ### Код
 
 <p>index.html состоит из текстового поля для обращения к API и создании диаграммы. Диаграмма помещается в пустой контейнер <b>result</b> в <b>svg</b> формате.</p>
-<img src="for_readme/index_code.png" alt="" height="500" width="500">
+<img src="/for_readme/index_code.png" alt="" height="300" width="300">
 <p>В style.css указано расположение элементов на странице.</p>
+<img src="/for_readme/style_code.png" alt="" height="250" width="300">
 <p>Код script.js содержит обращение к <b>Kroki API</b> для создания диаграмм. Поддерживаются три языка для создания диаграмм:</p>
 <p><b>PlantUML, Graphviz (DOT) и Mermaid</b></p>
+<img src="/for_readme/script_code.png" alt="" height="300" width="1000">
 
 ### script.js
 
 <p>Создание диаграммы реализовано через асинхронный метод <b>generateDiagram.</b></p>
 <p>Сначала, метод получает элементы <b>diagramType</b> и <b>diagramText</b>. После получения этих элементов, метод делает запрос типа <b>POST</b> к "https://kroki.io/${type}/svg", где <b>type</b> - это <b>diagramType</b>. Полученная диаграмма от API вставляется в элемент <b>result</b>.</p>
 
+### Процесс создания диаграммы
+
+<p>Для начала, нам нужно выбрать язык для создания диаграммы, для примера возьмем <b>Graphviz (DOT).</b></p>
+<p>Чтобы создать диаграмму, необходимо знать синтаксис языка, его можно найти на оффициальном сайте <a href="graphviz.org"><b>graphviz.org</b></a></p>
