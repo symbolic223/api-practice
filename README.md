@@ -18,12 +18,12 @@
 ### Код
 
 <p>index.html состоит из текстового поля для обращения к API и создании диаграммы. Диаграмма помещается в пустой контейнер <b>result</b> в <b>svg</b> формате.</p>
-<img src="/for_readme/index_code.png" alt="" height="300" width="300">
+<img src="/for_readme/index_code.png" alt="" width="300">
 <p>В style.css указано расположение элементов на странице.</p>
-<img src="/for_readme/style_code.png" alt="" height="250" width="300">
+<img src="/for_readme/style_code.png" alt="" width="300">
 <p>Код script.js содержит обращение к <b>Kroki API</b> для создания диаграмм. Поддерживаются три языка для создания диаграмм:</p>
 <p><b>PlantUML, Graphviz (DOT) и Mermaid</b></p>
-<img src="/for_readme/script_code.png" alt="" height="300" width="1000">
+<img src="/for_readme/script_code.png" alt="" width="300">
 
 ### script.js
 
@@ -34,3 +34,9 @@
 
 <p>Для начала, нам нужно выбрать язык для создания диаграммы, для примера возьмем <b>Graphviz (DOT).</b></p>
 <p>Чтобы создать диаграмму, необходимо знать синтаксис языка, его можно найти на оффициальном сайте <a href="http://graphviz.org"><b>graphviz.org</b></a></p>
+<p>Создадим простую диаграмму где <b>A->B; B->C; C->A.</b></p>
+<p>Чтобы создать такую диаграмму на языке DOT нам нужно написать следующее:</p>
+<p><b>1.</b> Указать название диаграммы digraph, назовем ее D;</p>
+<p><b>2.</b> В фигурных скобках мы укажем связь каждого элемента через точку с запятой и отступом;</p>
+<p><b>3.</b> Нажимаем на кнопку "Создать диаграмму" и готово.</p>
+<img src="/for_readme/result.png" alt="" width="500">
